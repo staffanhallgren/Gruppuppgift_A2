@@ -21,17 +21,7 @@ body {
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
-.navbar-default {
-  background-color: #444; 
-}
 
-.container {
-  width: 100%;
-}
-
-img.navbar-brand {
-  padding: 0;
-}
 
 .footer {
   background-color: #000000;
