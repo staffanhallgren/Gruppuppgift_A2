@@ -28,6 +28,83 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
+/*----------
+Custom styles Navbar
+----------*/
+.navbar-default {
+  background-color: rgba(42,47,54,0.5);
+	border: none;
+}
+
+.navbar-default .navbar-collapse {
+	border: none;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+a.navbar-brand {
+  padding: 0;
+}
+
+a.navbar-brand img {
+	height: 50px;
+}
+
+
+.navbar-toggle {
+	border: none;
+}
+
+.navbar-header .navbar-toggle:focus, .navbar-header .navbar-toggle:hover {
+	background-color: inherit;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.navbar-toggle .glyphicon-remove {
+	color: #fff;
+}
+
+.navbar-toggle.collapsed .icon-bar {
+	display: block;
+}
+
+.navbar-toggle .icon-bar {
+	display: none;
+}
+
+.navbar-toggle.collapsed .glyphicon-remove {
+	display: none;
+}
+
+.navbar-toggle .glyphicon-remove {
+	display: block;
+}
+
+.nav-justified li {
+	height: 50px;
+	border-top: 2px groove;
+}
+
+.nav-justified li a {
+	color: #fff;
+	height: 50px;
+	line-height: 2.5;
+	padding: 5px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: inherit;
+}
+
+.nav > li > a:active {
+	background-color: rgba(10,10,10,0.5);
+}
+
+/*End of Navbar styles*/
+
 /*-------------
 content styling
 -------------*/
@@ -217,72 +294,3 @@ Footer section
   color: #ffffff;
   font-size: 0.6em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------------
-  Desktop Media Query
-----------------*/
-
-@media only screen and (min-width: 641px) {
-  
-/*---------------------------------------
-Content styling desktop
----------------------------------------*/	
-	
-#about, #work, #contact {  /*Vad gör denna här?*/
-	margin-bottom: 200px;
-}	
-  
-/*---------------------------------------
-Cases & Clients hover filter for desktop
----------------------------------------*/
-  
-  
-#cases a img, #clients a img {
-	-webkit-filter: grayscale(1); /* Chrome & Safari 6+ */
-}
-
-#cases a img:hover, #clients a img:hover {
-	filter: none;
-	-webkit-filter: none;
-	opacity: 1;
-}
-  
-/*-----------------------
-Lightbox size for desktop
------------------------*/
-  
-.lightbox article {
-	max-height: 70%;
-}
-	
-/*---------------
-  Desktop Map
-----------------*/
-#map {
-	height: 400px;
-	max-width: 800px;
-}
-
-/*---------------
-  Social media icons
-----------------*/
-
-#contact a img {
-	width: 20%; 
-} 
-}
-
-
