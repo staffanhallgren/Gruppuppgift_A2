@@ -23,6 +23,7 @@ body {
 /* Not required for template or sticky footer method. */
 
 
+
 /*----------
 Custom styles Navbar
 ----------*/
@@ -119,4 +120,15 @@ body > .container {
 
 code {
   font-size: 80%;
+}
+	
+.footer {
+  background-color: #000000;
+  height: 50px;
+}
+
+.text-muted {
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.6em;
 }
