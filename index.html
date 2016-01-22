@@ -27,55 +27,201 @@
 
   <body>
 
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <img class="navbar-brand" src="media/img/redroom_logo/logo_white.png">
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+ 
 
-    <!-- Begin page content -->
-    <div class="container">
-      <div class="page-header">
-        <h1>Sticky footer with fixed navbar</h1>
-      </div>
-      <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body > .container</code>.</p>
-      <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
-    </div>
+<div class="wrapper">
+		<div id="home"></div>
+		<div class="contentwrapper">
+ 			<main>
+				<section id="about">
+					<section id="statement">
+						<h2>Statement</h2>
+						<p>at Redroom web agency we are</p>
+						<p>
+							creative bold experimental professional progressive 
+							inspirational avant garde bulletproof passionate service minded hard working visionaries
+						</p>
+						<p>
+							all that and a bag of chips.
+						</p>
+					</section>
+					
+					<section id="services">
+						<h2>Services</h2>
+            <p>
+              It does not matter of you're a single person company with no employees, world wide with offices in every corner of the world or anywhere inbetween. We have experience of working with all sorts. We enjoy the diversity that comes with finding the solution that is right for you.
+            </p>
+						<p>
+							We offer full scale web solutions, stunning websites, 
+							amazing application and whatever else things web you might need.
+						</p>
+						<p>
+							We believe that designs should look great no matter the device used.
+						</p>
+						<p>
+							Do you need to be able to publish and edit content yourself? 
+							No problem, we work with Wordpress, one of the most popular and 
+							user-friendly content management systems out there.
+						</p>
+					</section>
+				</section>
+				
+				<section id="work">
+					<section id="cases">
+						<h2>Cases</h2>
+						<div id="case-previews">
+							<a href="#case-a-info">
+								<img id="case-a" src="media/img/cases/css_zengarden_arvid.jpg" alt="case A image" width="200">
+							</a>
+							<a href="#case-b-info">
+								<img id="case-b" src="media/img/cases/css_zengarden_staffan.jpg" alt="case B image" width="200">
+							</a>
+							<a href="#case-c-info">
+								<img id="case-c" src="media/img/cases/css_zengarden_eric.jpg" alt="case C image" width="200">
+							</a>
+						</div>
+						<div id="case-a-info" class="lightbox">
+							<article>
+								<img src="media/img/cases/css_zengarden_arvid.jpg" alt="Screenshot of Arvid's Zengarden site">
+								<h3>Arvid's Zen Garden</h3>
+								<p>
+									CSS Zen Garden is a demonstration of what can be accomplished
+									through CSS-based design. CSS allows complete and total
+									control over the style of a hypertext document.
+								</p>
+								<p>
+									The only way this can be illustrated in a way that gets people
+									excited is by demonstrating what it can truly be, once the
+									reins are placed in the hands of those able to create beauty
+									from structure.
+								</p>
+								<p>
+									This design is by Arvid Norlin.
+     							</p>
+      							<p class="link">
+									<a href="http://arvidnorlin.github.io/htmlcss_uppg2/" target="_blank">Visit site</a>
+      							</p>
+								<p class="link">
+									<a href="#_">Close</a>
+								</p>
+							</article>
+						</div>
+						<div id="case-b-info" class="lightbox">
+							<article>
+								<img src="media/img/cases/css_zengarden_staffan.jpg" alt="Screenshot of Staffan's Zengarden site">
+								<h3>Staffan's Zen Garden</h3>
+								<p>
+									CSS Zen Garden is a demonstration of what can be accomplished
+									through CSS-based design. CSS allows complete and total
+									control over the style of a hypertext document.
+								</p>
+								<p> 
+									The only way this can be illustrated in a way that gets people
+									excited is by demonstrating what it can truly be, once the
+									reins are placed in the hands of those able to create beauty
+									from structure.
+								</p>
+								<p>
+									This design is by Staffan Hallgren.
+								</p>
+      							<p class="link">
+									<a href="http://staffanhallgren.github.io/" target="_blank">Visit site</a>
+		 						 </p>
+      							<p class="link">
+									<a href="#_">Close</a>
+								</p>
+							</article>
+						</div>
+						<div id="case-c-info" class="lightbox">
+							<article>
+								<img src="media/img/cases/css_zengarden_eric.jpg" alt="Screenshot of Eric's Zengarden site">
+								<h3>Eric's Zen Garden</h3>
+								<p>
+									CSS Zen Garden is a demonstration of what can be accomplished
+									through CSS-based design. CSS allows complete and total
+									control over the style of a hypertext document.
+								</p>
+								<p> The only way this can be illustrated in a way that gets people
+									excited is by demonstrating what it can truly be, once the
+									reins are placed in the hands of those able to create beauty
+									from structure.
+								</p>
+								<p>
+									This design is by Eric Schempp.
+								</p>
+								<p class="link">	
+									<a href="http://ekande.github.io/" target="_blank">Visit site</a>
+								</p>
+								<p class="link">
+									<a href="#_">Close</a>
+								</p>
+							</article>
+						</div>
+					</section>
 
+					<section id="clients">
+						<h2>Clients</h2>
+						<div>
+							<a href="http://www.nike.com/language_tunnel" target="_blank">
+								<img src="media/img/clientlogos/nike_logo.png" alt="Nike logo">
+							</a>
+							<a href="https://burgerking.se" target="_blank">
+    							<img src="media/img/clientlogos/Burger_King_Logo.png" alt="Burger king logo">
+							</a>
+    						<a href="https://www.duolingo.com/" target="_blank">
+    							<img src="media/img/clientlogos/duolingo_bird_logo.png" alt="Duolingo logo">
+    						</a>
+    						<a href="http://www.manuchao.net/" target="_blank">
+    							<img src="media/img/clientlogos/manuchao-logo.png" alt="Manu Chao logo">
+    						</a>
+    						<a href="https://www.google.se" target="_blank">
+    							<img src="media/img/clientlogos/google_logo.png" alt="Google logo">
+   							</a>
+    						<a href="http://www.starbucks.com/" target="_blank">
+    							<img src="media/img/clientlogos/Starbucks_Coffee_Logo.png" alt="Starbucks logo">
+    						</a>
+    						<a href="https://www.systembolaget.se/" target="_blank">
+   								<img src="media/img/clientlogos/systembolaget_logo.png" alt="Systembolaget logo">
+   							</a>
+    						<a href="http://www.tuborg.dk/alderscheck" target="_blank">
+    							<img src="media/img/clientlogos/tuborg_logo.png" alt="Tuborg logo">
+    						</a>
+    					</div>
+					</section>
+				</section>
+    
+				<section id="contact">
+   					<h2>Contact us</h2>		
+    				<address>
+		 			    <p>Swing by and say hi at Tomtebodavägen 3A</p>
+              <p>Fan mail at <a href="mailto:contact@redroom.se">contact@redroom.se</a></p>
+     					<p>Call us: 08-466 60 00</p>
+					</address>
+    				<div id="social_media_icons">
+						<a href="https://www.facebook.com/" target="_blank">
+							<img src="media/img/social_media_icons/facebook29.png" alt="Facebook social media icon">
+						</a>
+						<a href="https://www.twitter.com/" target="_blank">
+							<img src ="media/img/social_media_icons/twitter21.png" alt="Twitter social media icon">
+						</a>
+						<a href="https://www.linkedin.com" target="_blank">
+							<img src="media/img/social_media_icons/linkedin12.png" alt="Linkedin social media icon">
+						</a>
+    				</div>
+				</section>
+				
+				<section id="directions">
+					<h2>Directions</h2>
+					<div id="map"></div>
+				</section>
+			</main>
     <footer class="footer">
       <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
+        <p class="text-muted">&copy;2016 Redroom</p>
       </div>
     </footer>
-
+   	</div>
+  </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -85,5 +231,8 @@
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="map.js" type="text/javascript"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGO5g2NW9r1jXfgJPPQ-6Am50y7BHF-7E&callback=initMap"> </script>
   </body>
 </html>
