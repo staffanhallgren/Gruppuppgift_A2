@@ -1,10 +1,9 @@
-/* Sticky footer styles
--------------------------------------------------- */
 html {
   position: relative;
   min-height: 100%;
 }
 body {
+  color: #ffffff;
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
@@ -55,28 +54,14 @@ video{
 	-webkit-filter:blur(5px);
 }
 
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
-}
-
-
 /* Custom page CSS
 -------------------------------------------------- */
-/* Not required for template or sticky footer method. */
-
-
 
 /*----------
 Custom styles Navbar
 ----------*/
 .navbar-default {
-  background-color: rgba(42,47,54,0.5);
+  background-color: rgb(42,47,54);
 	border: none;
 }
 
@@ -149,34 +134,144 @@ a.navbar-brand img {
 
 /*End of Navbar styles*/
 
+/*-------------
+content styling
+-------------*/
 
-/*----------
-
-----------*/
-
-body > .container {
-  padding: 60px 15px 0;
-}
-.container .text-muted {
-  margin: 20px 0;
+#about, #contact, #work, #directions {
+  background-color: rgba(42,47,54, 0.8);
+	border-radius: 3px;
 }
 
-.footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
+#about, #work, #contact {
+	margin-bottom: 75px;
 }
 
-code {
-  font-size: 80%;
+#about, #work, #contact, #directions {
+	padding: 5%;
+	text-align: center;
 }
-	
+
+#about {
+	margin-top: 150px;
+}
+
+#cases {
+  margin-bottom: 100px;
+}
+
+h2, h3 {
+	line-height: 1.5em;
+	display: inline-block;
+	border-bottom: 2px solid #ff0000;
+}
+
+/*-------------------------
+styling cases & clients img
+--------------------------*/
+
+#cases a img, #clients a img {
+	opacity: 0.5;
+}
+
+#cases a:active img, #clients a:active img {
+	opacity: 1;
+}
+
+#cases a img {
+	margin: 10px;
+}
+
+/*-----------------
+Cases info lightbox
+-----------------*/
+
+.lightbox {
+	display: none;
+}
+
+.lightbox:target {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);	
+}
+
+.lightbox article {
+	background-color: #dddddd;
+	color: black;
+	max-width: 60%;
+	max-height: 80%;
+	text-align: center;
+	margin: 5% auto;
+	padding: 5% 10%;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+.lightbox article img {
+	display: block;
+	width: 90%;
+	max-width: 300px;
+	margin: auto;
+	box-shadow: 2px 2px 15px;
+}
+
+.lightbox p {
+	text-align: left;
+}
+
+.lightbox .link {
+	text-align: center;
+}
+
+.lightbox article a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.lightbox article a:visited {
+	color: #000;
+}
+
+.lightbox article a:hover {
+	text-decoration: underline;
+}
+
+/* End of case info lightbox*/
+
+/*-------------
+Map section
+-------------*/
+
+#map {
+	height: 320px;
+	width: 80%;
+	margin: auto;
+	border-radius: 3px;
+	box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.3);
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
 .footer {
-  background-color: #000000;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
   height: 50px;
+  background-color: #000000;
 }
 
 .text-muted {
   text-align: center;
   color: #ffffff;
   font-size: 0.6em;
+  margin-top: 20px;
 }
