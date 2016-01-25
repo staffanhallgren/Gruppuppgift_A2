@@ -257,6 +257,14 @@ Cases info lightbox
 Contact section
 -------------*/
 
+#social_media_icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-top: 2px solid #000000;
+	padding-top: 30px;
+}
+
 address a {
 	color: #fff;
 }
