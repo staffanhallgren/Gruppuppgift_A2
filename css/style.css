@@ -11,7 +11,7 @@ body {
 	line-height: 1.5em;
   color: #ffffff;
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 /*background image animation
@@ -147,13 +147,7 @@ content styling
 #about, #contact, #work, #directions {
   background-color: rgba(42,47,54, 0.8);
 	border-radius: 3px;
-}
-
-#about, #work, #contact {
-	margin-bottom: 75px;
-}
-
-#about, #work, #contact, #directions {
+  margin-bottom: 75px;
 	padding: 5%;
 	text-align: center;
 }
@@ -287,7 +281,7 @@ Map section
   text-align: center;
   color: #ffffff;
   font-size: 0.6em;
-  margin: 20px 0 0 0;
+  margin: 15px 0 0 0;
 }
 
 
