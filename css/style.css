@@ -195,8 +195,7 @@ Cases info lightbox
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 1000;
-	width: 100%;
+	z-index: 1050;
 	height: 100%;
 	background-color: rgba(0,0,0,0.8);	
 }
@@ -204,10 +203,9 @@ Cases info lightbox
 .lightbox article {
 	background-color: #dddddd;
 	color: black;
-	max-width: 60%;
-	max-height: 80%;
+	max-height: 90vh;
+	margin-top: 5%;
 	text-align: center;
-	margin: 5% auto;
 	padding: 5% 10%;
 	border-radius: 3px;
 	overflow: auto;
@@ -251,8 +249,6 @@ Map section
 
 #map {
 	height: 320px;
-	width: 80%;
-	margin: auto;
 	border-radius: 3px;
 	box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.3);
 }
