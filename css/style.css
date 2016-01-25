@@ -298,8 +298,26 @@ Desktop Media Query
 -------------*/
 
 @media only screen and (min-width: 768px) {
+	
+	
+/*-------------
+Desktop Navbar
+-------------*/	
+
+nav div.container-fluid {
+	padding-right: 0;	
+}
+	
+.nav-justified li {
+	height: 50px;
+	border: none;
+}
+	
+.nav > li > a:hover {
+	background-color: rgba(10,10,10,0.5);
+}
   
-  /*---------------------------------------
+/*---------------------------------------
 Cases & Clients hover filter for desktop
 ---------------------------------------*/
     
