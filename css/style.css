@@ -25,13 +25,13 @@ body {
 	display:block;
 	position: fixed;
 	top: 0%;
-	left -500px;
+	left: -500px;
 	min-width: 100%;
 	min-width: 100%;
 	width:auto;
 	height:auto;
 	z-index: -100;
-	-webkit-filter:blur(7px;)
+	-webkit-filter:blur(7px);
 	animation-timing-function: ease-in;
 	animation-name: opacity;
 	animation-duration: 3s;
@@ -46,11 +46,11 @@ video{
 	display: block;
 	position: fixed;
 	top: 0%;
-	left 0%;
+	left: 0%;
 	min-width: 100%;
 	min-height: 100%;
 	z-index: -100;
-	filter:blur(5px;);
+	filter:blur(5px);
 	-webkit-filter:blur(5px);
 }
 
