@@ -289,10 +289,6 @@ Map section
 
 
 
-
-
-
-
 /*-------------
 Desktop Media Query
 -------------*/
@@ -341,5 +337,13 @@ Desktop Map
 }
 
 
+/*----------
+Fixes
+----------*/
 
+.clearfix {
+	content:"";
+	display: table;
+	clear: both;
+}
 
