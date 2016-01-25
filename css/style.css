@@ -285,3 +285,43 @@ Map section
   font-size: 0.6em;
   margin-top: 20px;
 }
+
+
+
+
+
+
+
+
+/*-------------
+Desktop Media Query
+-------------*/
+
+@media only screen and (min-width: 768px) {
+  
+  /*---------------------------------------
+Cases & Clients hover filter for desktop
+---------------------------------------*/
+    
+#cases a img, #clients a img {
+	-webkit-filter: grayscale(1); /* Chrome & Safari 6+ */
+}
+
+#cases a img:hover, #clients a img:hover {
+	filter: none;
+	-webkit-filter: none;
+	opacity: 1;
+}
+  
+/*---------------
+Desktop Map
+----------------*/
+  
+#map {
+  height: 400px;
+}
+}
+
+
+
+
