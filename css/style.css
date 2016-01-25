@@ -1,8 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
 html {
   position: relative;
   min-height: 100%;
+  font-size: 1em;
 }
 body {
+  font-family: Roboto, Georgia, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
   color: #ffffff;
   /* Margin bottom by footer height */
   margin-bottom: 60px;
@@ -244,6 +250,14 @@ Cases info lightbox
 /* End of case info lightbox*/
 
 /*-------------
+Contact section
+-------------*/
+
+address a {
+	color: #fff;
+}
+
+/*-------------
 Map section
 -------------*/
 
@@ -271,3 +285,43 @@ Map section
   font-size: 0.6em;
   margin-top: 20px;
 }
+
+
+
+
+
+
+
+
+/*-------------
+Desktop Media Query
+-------------*/
+
+@media only screen and (min-width: 768px) {
+  
+  /*---------------------------------------
+Cases & Clients hover filter for desktop
+---------------------------------------*/
+    
+#cases a img, #clients a img {
+	-webkit-filter: grayscale(1); /* Chrome & Safari 6+ */
+}
+
+#cases a img:hover, #clients a img:hover {
+	filter: none;
+	-webkit-filter: none;
+	opacity: 1;
+}
+  
+/*---------------
+Desktop Map
+----------------*/
+  
+#map {
+  height: 400px;
+}
+}
+
+
+
+
