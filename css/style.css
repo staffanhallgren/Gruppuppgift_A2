@@ -1,8 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
 html {
   position: relative;
   min-height: 100%;
+  font-size: 1em;
 }
 body {
+  font-family: Roboto, Georgia, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
   color: #ffffff;
   /* Margin bottom by footer height */
   margin-bottom: 60px;
