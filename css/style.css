@@ -25,8 +25,10 @@ body {
 	}
 }
 
-/*background image
-/*---------------------------------------------- */
+
+/*--------------
+background image
+------------- */
 #bg-img {
 	display:block;
 	position: fixed;
@@ -45,19 +47,11 @@ body {
 	animation-play-state: running;
 }
 
-/*background video
-/*--------------------------------------------- */
-/*move to correct media query later. */
-video{
-	display: block;
-	position: fixed;
-	top: 0%;
-	left: 0%;
-	min-width: 100%;
-	min-height: 100%;
-	z-index: -100;
-	filter:blur(5px);
-	-webkit-filter:blur(5px);
+/*----------------
+background video
+--------------- */
+video {
+	display: none;
 }
 
 /* Custom page CSS
@@ -154,6 +148,10 @@ content styling
 
 #about {
 	margin-top: 150px;
+}
+
+.words {
+	white-space: nowrap;
 }
 
 #cases {
@@ -286,6 +284,8 @@ Map section
   text-align: center;
   color: #ffffff;
   font-size: 0.6em;
+  margin-top: 15px;
+	margin-bottom: 0;
 }
 
 
@@ -296,7 +296,18 @@ Desktop Media Query
 -------------*/
 
 @media only screen and (min-width: 768px) {
-	
+
+video{
+	display: block;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -100;
+	filter:blur(5px);
+	-webkit-filter:blur(5px);
+}
 	
 /*-------------
 Desktop Navbar
