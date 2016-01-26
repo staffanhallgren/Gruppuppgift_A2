@@ -162,6 +162,10 @@ content styling
 	margin-top: 150px;
 }
 
+.words {
+	white-space: nowrap;
+}
+
 #cases {
   margin-bottom: 100px;
 }
