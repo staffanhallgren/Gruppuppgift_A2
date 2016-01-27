@@ -156,6 +156,14 @@ content styling
   margin-bottom: 100px;
 }
 
+#clients div a {
+	height: 100px;
+}
+
+#clients div a img {
+	max-width: 100%;
+}
+
 h2 {
   margin-bottom: 25px;
 }
