@@ -182,6 +182,10 @@ styling cases & clients img
 	margin: 10px;
 }
 
+#case-previews img {
+	width: 100%;
+}
+
 /*-----------------
 Cases info lightbox
 -----------------*/
@@ -213,10 +217,10 @@ Cases info lightbox
 
 .lightbox article img {
 	display: block;
-	width: 90%;
-	max-width: 300px;
 	margin: auto;
 	box-shadow: 2px 2px 15px;
+	padding: 0;
+	width: 100%;
 }
 
 .lightbox p {
@@ -336,6 +340,14 @@ Cases & Clients hover filter for desktop
 	filter: none;
 	-webkit-filter: none;
 	opacity: 1;
+}
+
+/*--------
+Cases img
+--------*/	
+	
+#case-previews img {
+	width: 100%;
 }
   
 /*---------------
