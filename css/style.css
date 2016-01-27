@@ -16,6 +16,14 @@ body {
 
 /*background image animation
 /*----------------------------------------------- */
+@-webkit-keyframes opacity {
+	0%{
+		opacity: 0;
+		}
+	100%{
+		opacity: 1;
+	}
+}
 @keyframes opacity {
 	0%{
 		opacity: 0;
@@ -38,11 +46,16 @@ background image
 	height: 100%;
 	z-index: -100;
 	-webkit-filter:blur(7px);
-	animation-timing-function: ease-in;
-	animation-name: opacity;
-	animation-duration: 3s;
-	animation-delay: 0s;
-	animation-play-state: running;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-name: opacity;
+	        animation-name: opacity;
+	-webkit-animation-duration: 3s;
+	        animation-duration: 3s;
+	-webkit-animation-delay: 0s;
+	        animation-delay: 0s;
+	-webkit-animation-play-state: running;
+	        animation-play-state: running;
 }
 
 /*----------------
@@ -384,4 +397,3 @@ Fixes
 	display: table;
 	clear: both;
 }
-
